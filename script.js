@@ -18,7 +18,7 @@ document.getElementById('message-input').addEventListener('keypress', function(e
         sendMessage();
     }
 });
-
+/* Test comment */
 function sendMessage() {
     const input = document.getElementById('message-input');
     const message = input.value.trim();
